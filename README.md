@@ -1,1 +1,5 @@
 # MT-Gaussians: Multi-Type Gaussian Representation for High-Fidelity 3D Splatting
+
+![Teaser image](assets/teaser.png)
+
+MT-Gaussians employs a multi-type gaussian representation to enhance the accuracy and adaptability of 3D scene reconstruction. First, gaussians are categorized into point, line, and surface types to precisely capture different geometric and texture features. Then, leveraging the Multi-Type Gaussian Evolution (MTGE), we introduce the concepts of strong and weak Gaussians—Strong Gaussians remain stable during optimization to accurately represent scene structures, while Weak Gaussians exhibit greater adaptability, dynamically adjusting their types. Through splitting, cloning, and merging operations, the density is effectively controlled to better fit different regions. Finally, an Incremental Gaussian Generation strategy is adopted, utilizing a convolution-based approach to iteratively fill under-reconstructed areas, enhancing scene completeness and reconstruction accuracy, ultimately achieving high-fidelity 3D Gaussian reconstruction.
