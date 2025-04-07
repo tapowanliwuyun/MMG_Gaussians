@@ -28,3 +28,8 @@ pip install submodules/simple-knn
 pip install plyfile tqdm opencv-python lpips 
 ```
 
+## Run our codes 
+
+
+## 🎫 Acknowledgment
+This project largely references [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) and [Mip-Splatting](https://github.com/autonomousvision/mip-splatting). Thanks for their amazing works!
