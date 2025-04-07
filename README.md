@@ -34,6 +34,8 @@ pip install plyfile tqdm opencv-python lpips
 python scripts/run_demo.py
 ```
 Since the project is still ongoing, we are currently unable to release the full code. We will make all of our code publicly available as soon as the paper is accepted and we are permitted to do so, in order to facilitate further research and discussion.
+
+
 If you're interested in our project, feel free to contact us! We look forward to connecting with you!
 
 ## 🎫 Acknowledgment
