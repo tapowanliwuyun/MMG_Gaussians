@@ -20,11 +20,11 @@ conda env create --file environment.yml
 ```
 or
 ```
+conda create -n mt_gaussians python=3.7
+conda activate mt_gaussians
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install submodules/diff-gaussian-rasterization
+pip install submodules/simple-knn
+pip install plyfile tqdm opencv-python lpips 
+```
 
-```
-cd ./submodules/Propagation
-# The gpu compute architecture is specified as sm_86 in CMakeLists.
-# Please replace it with a version that is suitable for your GPU.
-cmake .
-make
-```
