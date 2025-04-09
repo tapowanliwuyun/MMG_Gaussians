@@ -1,4 +1,4 @@
-name: mt_gaussians
+name: mmg_gaussians
 channels:
   - pytorch
   - conda-forge
