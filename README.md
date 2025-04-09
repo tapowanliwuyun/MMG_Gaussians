@@ -11,7 +11,7 @@ Ubuntu 22.04.1 LTS, GeForce 3090,  11.7, C++17
 ### Clone the repo.
 
 ```
-git clone https://github.com/tapowanliwuyun/MT_Gaussians.git
+git clone https://github.com/tapowanliwuyun/MMG_Gaussians.git
 ```
 ### Environment setup 
 
@@ -20,8 +20,8 @@ conda env create --file environment.yml
 ```
 or
 ```
-conda create -n mt_gaussians python=3.7
-conda activate mt_gaussians
+conda create -n mmg_gaussians python=3.7
+conda activate mmg_gaussians
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 pip install submodules/diff-gaussian-rasterization
 pip install submodules/simple-knn
